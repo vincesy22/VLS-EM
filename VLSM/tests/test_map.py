@@ -2,7 +2,7 @@ import os
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from VLSM.map_generator.py import generate_map
+from map_generator.py import generate_map
 
 def test_map_creation():
     output = generate_map(14.5995, 120.9842, "test_map.html")
